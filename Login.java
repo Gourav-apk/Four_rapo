@@ -9,7 +9,7 @@ public class Login{
         password = sc.nextInt();
         System.out.println("Enter your name");
          name =sc.nextLine();
-
+        sc.close();
         if(name=="Gourav Kumar"){
             if(password==123456){
                 System.out.println("Login successfully");
